@@ -9,8 +9,8 @@ Define a global pipeline library that uses this repo. Enable "Load implicitly" i
 
 ### Example Pipeline code
 
-  stage('Zero') {
-      when (BRANCH_NAME != 'master') {
-          echo 'Performing steps of stage Zero'
-      }
-  }
+    stage('Zero') {
+        when (BRANCH_NAME != 'master') {
+            echo 'Performing steps of stage Zero'
+        }
+    }
