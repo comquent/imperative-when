@@ -8,7 +8,7 @@ def call(boolean condition, body) {
     if (condition) {
         body()
     } else {
-        Utils.markStageSkippedForConditional(STAGE_NAME)
+        Utils.markStageSkippedForConditional(env.STAGE_NAME)
     }
 }
 
